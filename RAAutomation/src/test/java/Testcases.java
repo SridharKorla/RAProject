@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class Testcases {
 
-	//Added this comment on 01072022 for testing Git
+	//  Added this comment on 01072022 for testing git
 	
 	@Test
 	void testscode()
@@ -42,6 +42,8 @@ Assert.assertEquals(statuscode,200);
 Assert.assertEquals(responseobj.getContentType(),"application/json; charset=utf-8");
 		
 	}
+	
+	
 	@Test
 void testscode2()
 	
