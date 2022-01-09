@@ -7,8 +7,9 @@ public class TC1
 
 	public static void main(String[] args) throws InterruptedException
 	{
+		
 		// TODO Auto-generated method stub	
-		// This comment is for testing purposes only	0840
+		// This comment is for testing purposes only	0848
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\n0180400\\eclipse-workspace\\SeleniumTests\\src\\test\\java\\chromedriver.exe");		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");		
@@ -17,5 +18,6 @@ public class TC1
 		Thread.sleep(4000);		
 		driver.findElement(By.name("btnK")).click();  
 		driver.close();
+		
 	}
 }
