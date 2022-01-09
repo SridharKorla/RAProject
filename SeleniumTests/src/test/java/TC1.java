@@ -6,7 +6,8 @@ public class TC1 {
 
 	public static void main(String[] args) throws InterruptedException
 	{
-		// TODO Auto-generated method stub		
+		// TODO Auto-generated method stub	
+		// This comment is for testing purposes only
 	
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\n0180400\\eclipse-workspace\\SeleniumTests\\src\\test\\java\\chromedriver.exe");		
 		WebDriver driver = new ChromeDriver();
